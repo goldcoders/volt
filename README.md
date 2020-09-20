@@ -27,6 +27,7 @@
 - tauri init
 
 > Check Configuration is Correct 
+
 ** since we are using dist for bundling our app and localhost:3000 **
 
 //tauri.conf.json

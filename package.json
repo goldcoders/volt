@@ -4,7 +4,8 @@
     "scripts": {
         "validate": "svelte-check && tsc --noEmit",
         "dev": "svite -ts",
-        "build": "svite build -ts"
+        "build": "svite build -ts",
+        "tauri": "tauri"
     },
     "devDependencies": {
         "@tailwindcss/ui": "^0.6.2",
@@ -24,5 +25,8 @@
         "tailwindcss": "^1.8.10",
         "tslib": "^2.0.1",
         "typescript": "^4.0.3"
+    },
+    "dependencies": {
+        "tauri": "^0.12.0"
     }
 }

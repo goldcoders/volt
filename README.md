@@ -1,4 +1,4 @@
-# Volt - Blazingly Fast DX in Building Svelte Apps
+# Volt - Blazingly Fast DX in Building Svelte Desktop Apps
 
 ## Stacks
 - Svite Bundler (Web Apps)
@@ -8,39 +8,10 @@
 - Typescript
 - Tauri Bundler (Building Desktop Apps)
 
-## Web Development
-- yarn
+## Development
 - yarn dev
+- yarn tauri dev
 
 ## Production
 - yarn build
-
-
-## [Using with Tauri](https://tauri.studio/en/docs/usage/development/integration)
-
-> Assuming you have properly set up RUSTUP and Tauri Bundler
-
-> Install Tauri globally
-- npm install -g tauri
-
-> Create a New Tauri Apps
-- tauri init
-
-> Check Configuration is Correct 
-
-**since we build our app at dist folder, and run our app at localhost:3000**
-
-//tauri.conf.json
-```
-"build": {
-"distDir": "../dist",
-"devPath": "http://localhost:3000",
-
-}
-```
-
-> Tauri App Development 
-- yarn dev && tauri dev 
-
-> Compiling Desktop App Executables
-- yarn build && tauri build
+- yarn tauri build

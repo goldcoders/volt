@@ -1,5 +1,8 @@
 # Volt - Blazingly Fast DX in Building Svelte Apps
 
+![pic-full-200921-1811-23](https://user-images.githubusercontent.com/55337687/93755505-00330a80-fc36-11ea-959e-31586f17de45.png)
+
+
 ## Stacks
 - Svite Bundler (Web Apps)
 - Svelte

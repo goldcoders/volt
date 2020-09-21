@@ -11,7 +11,7 @@
 - Typescript
 - Tauri Bundler (Building Desktop Apps)
 
-## Web Development
+## Web Development (Master Branch)
 - yarn
 - yarn dev
 
@@ -19,7 +19,7 @@
 - yarn build
 
 
-## [Using with Tauri](https://tauri.studio/en/docs/usage/development/integration)
+## [Desktop Development](https://tauri.studio/en/docs/usage/development/integration) (Tauri Branch)
 
 > Assuming you have properly set up RUSTUP and Tauri Bundler
 

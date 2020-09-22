@@ -5,6 +5,7 @@ module.exports = {
     preprocess.postcss(),
     preprocess({
       typescript: false, // svite -ts injects it's own typescript preprocessor
+      postcss: false
     }),
   ],
 };
